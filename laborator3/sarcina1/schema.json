@@ -1,0 +1,108 @@
+{
+    "type": "object",
+    "properties": {
+      "name": {
+        "type": "string"
+      },
+      "sureName": {
+        "type": "string"
+      },
+      "patronymic": {
+        "type": "string"
+      },
+      "birthday": {
+        "type": "string"
+      },
+      "email": {
+        "type": "string"
+      },
+      "gender": {
+        "type": "string"
+      },
+      "privateInfo": {
+        "type": "object",
+        "properties": {
+          "idnp": {
+            "type": "integer"
+          }
+        },
+        "additionalProperties": false
+      },
+      "address": {
+        "type": "object",
+        "properties": {
+          "country": {
+            "type": "string"
+          },
+          "city": {
+            "type": "string"
+          },
+          "street": {
+            "type": "string"
+          },
+          "block": {
+            "type": "integer"
+          },
+          "apartmen": {
+            "type": "integer"
+          }
+        },
+        "additionalProperties": false
+      },
+      "homePhone": {
+        "type": "string"
+      },
+      "workContract": {
+        "type": "object",
+        "properties": {
+          "position": {
+            "type": "string"
+          },
+          "workContractStartFrom": {
+            "type": "string"
+          },
+          "workConditions": {
+            "type": "object",
+            "properties": {
+              "salary": {
+                "type": "integer"
+              },
+              "totalWorkExperience": {
+                "type": "integer"
+              },
+              "department": {
+                "type": "string"
+              },
+              "workSchedule": {
+                "type": "object",
+                "properties": {
+                  "start": {
+                    "type": "string"
+                  },
+                  "end": {
+                    "type": "string"
+                  },
+                  "lunch": {
+                    "type": "object",
+                    "properties": {
+                      "start": {
+                        "type": "string"
+                      },
+                      "end": {
+                        "type": "string"
+                      }
+                    },
+                    "additionalProperties": false
+                  }
+                },
+                "additionalProperties": false
+              }
+            },
+            "additionalProperties": false
+          }
+        },
+        "additionalProperties": false
+      }
+    },
+    "additionalProperties": false
+  }

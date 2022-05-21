@@ -1,0 +1,36 @@
+{
+    "name": "Billie",
+    "sureName": "Glenn",
+    "patronymic": "Rios",
+    "birthday": "1994-07-30",
+    "email": "riosglenn@fleetmix.com",
+    "gender": "male",
+    "privateInfo": {
+      "idnp": 3114110538981
+    },
+    "address": {
+      "country": "Moldova",
+      "city": "Wright",
+      "street": "Clara Street",
+      "block": 39,
+      "apartmen": 87
+    },
+    "homePhone": "+231 (880) 551-2008",
+    "workContract": {
+      "position": "developer",
+      "workContractStartFrom": "2009-06-10",
+      "workConditions": {
+        "salary": 362756,
+        "totalWorkExperience": 12,
+        "department": "COLAIRE department",
+        "workSchedule": {
+          "start": "2021-07-19T04:14:18 -03:00",
+          "end": "2020-01-07T06:46:04 -03:00",
+          "lunch": {
+            "start": "12:00",
+            "end": "13:00"
+          }
+        }
+      }
+    }
+  }
